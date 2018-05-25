@@ -1,5 +1,5 @@
 {
-  "name": "react-plain-modal",
+  "name": "react-rollup-ts-starter",
   "files": ["lib"],
   "description": "Extremely Lightweight React modal",
   "keywords": ["react", "modal", "backdrop"],

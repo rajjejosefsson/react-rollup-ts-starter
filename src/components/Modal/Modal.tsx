@@ -1,7 +1,9 @@
+import './Modal.scss';
+
 import * as React from 'react';
+
 import Backdrop from '../Backdrop';
 import Window from '../Window';
-import './Modal.css';
 import { ModalProps, ModalState } from './Modal.type';
 
 class Modal extends React.Component<ModalProps, ModalState> {

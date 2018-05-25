@@ -1,6 +1,6 @@
 /// <reference types="react" />
+import './Modal.scss';
 import * as React from 'react';
-import './Modal.css';
 import { ModalProps, ModalState } from './Modal.type';
 declare class Modal extends React.Component<ModalProps, ModalState> {
     static defaultProps: {
