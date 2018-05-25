@@ -1,0 +1,36 @@
+.c-modal--window {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 101;
+  width: 652px;
+  height: 190px;
+  border-radius: 2px;
+  border: none;
+  background-color: #ffffff;
+  box-shadow: 0 1px 4px 0 rgba(41, 51, 57, 0.5);
+}
+
+.c-modal--window:focus {
+  outline: none;
+}
+
+.c-modal--close {
+  cursor: pointer;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  border: none;
+}
+
+.c-modal--close:hover:before,
+.c-modal--close:hover:after {
+  background: rgb(15, 15, 15);
+}
