@@ -1,6 +1,13 @@
-# React Rollup TS Starter
+<h1>
+ React Rollup TS Starter 💎
+</h1>
+<hr />
 
+[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)  <img src="https://img.shields.io/badge/💎-Modern-44aadd.svg"/> <img src="https://img.shields.io/badge/🔥-Blazing%20Fast-red.svg"/>
+
+## Motivation
 This is an opinionated starter kit to start making an Library. The goal of this starter kit is to give you an library easily that is ready for production.
+
 
 ## Demo
 [Storybook](https://rajjejosefsson.github.io/react-rollup-ts-starter/index.html)
