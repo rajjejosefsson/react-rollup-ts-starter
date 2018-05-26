@@ -1,6 +1,6 @@
 
 
-# React Rollup Ts Starter
+# React Rollup TS Starter
 
 This is an opinionated starter kit to start making an Library. The goal of this starter kit is to give you an library easily that is ready for production.
 
