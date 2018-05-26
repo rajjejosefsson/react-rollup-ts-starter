@@ -10,6 +10,7 @@
   "scripts": {
     "build": "rollup -c",
     "start": "rollup -c -w",
+    "test": "jest",
     "precommit": "lint-staged"
   },
   "peerDependencies": {
@@ -18,8 +19,10 @@
     "react-dom": "^16.3.1"
   },
   "devDependencies": {
+    "@types/jest": "^22.2.3",
     "@types/react": "^16.3.14",
     "@types/react-dom": "^16.0.5",
+    "@types/react-test-renderer": "^16.0.1",
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.3",
     "babel-plugin-external-helpers": "^6.22.0",
@@ -27,11 +30,13 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
     "husky": "^0.14.3",
+    "jest": "^23.0.0",
     "lint-staged": "^7.1.2",
     "node-sass": "^4.9.0",
     "prettier": "1.12.1",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
+    "react-test-renderer": "^16.4.0",
     "rollup": "^0.57.1",
     "rollup-plugin-babel": "^3.0.4",
     "rollup-plugin-filesize": "^1.5.0",
@@ -42,10 +47,18 @@
     "rollup-plugin-typescript2": "^0.14.0",
     "rollup-plugin-uglify": "^3.0.0",
     "rollup-plugin-visualizer": "^0.6.0",
+    "ts-jest": "^22.4.6",
     "typescript": "^2.8.3",
     "uglify-es": "3.3.9"
   },
   "lint-staged": {
     "*.{ts,tsx,js,json,css,md}": ["prettier --write", "git add"]
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"]
   }
 }

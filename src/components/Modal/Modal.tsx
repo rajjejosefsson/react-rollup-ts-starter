@@ -1,4 +1,4 @@
-import './Modal.scss';
+// import './Modal.scss';
 
 import * as React from 'react';
 
@@ -29,7 +29,7 @@ class Modal extends React.Component<ModalProps, ModalState> {
     animationState: 'leave',
   };
 
-  outerDIV: HTMLElement;
+  outerDIV!: HTMLElement;
 
   static getDerivedStateFromProps(
     nextProps: ModalProps,
