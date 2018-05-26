@@ -16,6 +16,20 @@ This is an opinionated starter kit to start making an Library. The goal of this 
 * [Jest](https://facebook.github.io/jest/) JavaScript Testing provided by Facebook
 * [Storybook](https://storybook.js.org/) UI Development Environment
 
+
+## How to use
+
+To build the project - `npm run build`
+
+To test - `npm run test`
+
+To start storybook - `npm run storybook`
+
+To build storybook - `npm run build-storybook`
+
+To deploy storybook to gh pages - `npm run deploy-storybook`
+
+
 ## Contributors
 
 Thanks goes to these people
