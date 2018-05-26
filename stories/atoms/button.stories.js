@@ -10,7 +10,7 @@ import {
   selectV2,
 } from '@storybook/addon-knobs/react';
 import { withInfo } from '@storybook/addon-info';
-
+import { Button } from '../../lib';
 storiesOf('Atoms', module)
   .addDecorator(withKnobs)
   .add(
@@ -62,13 +62,13 @@ storiesOf('Atoms', module)
       );
 
       return (
-        <button
+        <Button
           className={`btn btn--${buttonType} btn--${buttonSize} ${
             isDisabled ? 'btn--disabled' : ''
           }`}
         >
           {title}
-        </button>
+        </Button>
       );
     }),
   );

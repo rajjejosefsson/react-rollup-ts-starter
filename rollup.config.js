@@ -12,7 +12,7 @@ export default {
   input: 'src/index.tsx',
   output: [
     {
-      file: 'lib/index.es.js',
+      file: 'lib/index.js',
       format: 'es',
       sourcemap: false,
     },
