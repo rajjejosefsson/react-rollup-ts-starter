@@ -1,4 +1,4 @@
-// import './Modal.scss';
+import './Modal.scss';
 
 import * as React from 'react';
 

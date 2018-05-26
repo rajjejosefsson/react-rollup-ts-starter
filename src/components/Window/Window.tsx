@@ -1,7 +1,9 @@
+import './Window.css';
+
 import * as React from 'react';
-import { WindowProps } from './Window.type';
-// import './Window.css';
+
 import CloseIcon from './CloseIcon';
+import { WindowProps } from './Window.type';
 
 const Window = (props: WindowProps) => {
   const {

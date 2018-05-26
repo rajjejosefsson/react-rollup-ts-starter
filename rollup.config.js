@@ -20,19 +20,20 @@ export default {
     },
   ],
   plugins: [
+    // Automatically externalize peerDependencies in a rollup bundle.
     external(),
 
+    // Prints out typescript syntactic and semantic diagnostic messages
     typescript({
       tsconfigDefaults: {
         compilerOptions: { declaration: true, jsx: 'react' },
       },
     }),
 
-    // uses node-sass as loader when using .scss, .sass
     postcss({
       minimize: true, // uses cssnano behind scene
-      modules: true, // yeah no more conflicts
-      extensions: ['.css', '.scss', '.sass'],
+      modules: true, // enable css modules
+      extensions: ['.css', '.scss', '.sass'], // uses node-sass
     }),
 
     babel({
