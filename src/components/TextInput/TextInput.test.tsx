@@ -1,8 +1,9 @@
 import * as React from 'react';
-import Modal from './Modal';
 import { create } from 'react-test-renderer';
 
+import { TextInput } from './TextInput';
+
 it('renders correctly', () => {
-  const tree = create(<Modal />).toJSON();
+  const tree = create(<TextInput />).toJSON();
   expect(tree).toMatchSnapshot();
 });
