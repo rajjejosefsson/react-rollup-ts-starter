@@ -7,8 +7,8 @@ This is an opinionated starter kit to start making an Library. The goal of this 
 ## What is inside
 * [Rollup](https://rollupjs.org/) Module bundler for JavaScript
 * [React](https://facebook.github.io/react/) A JavaScript library for building user interfaces
-* [Storybook](https://storybook.js.org/) UI Development Environment
-* [Jest](https://facebook.github.io/jest/) JavaScript Testing provided by Facebook
+* (WIP) [Storybook](https://storybook.js.org/) UI Development Environment
+* (WIP) [Jest](https://facebook.github.io/jest/) JavaScript Testing provided by Facebook
 
 
 ## Contributors
