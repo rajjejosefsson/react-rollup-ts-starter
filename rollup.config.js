@@ -1,4 +1,3 @@
-import babel from 'rollup-plugin-babel';
 import external from 'rollup-plugin-peer-deps-external';
 import resolve from 'rollup-plugin-node-resolve';
 import typescript from 'rollup-plugin-typescript2';
@@ -7,7 +6,6 @@ import { minify } from 'uglify-es';
 import filesize from 'rollup-plugin-filesize';
 import progress from 'rollup-plugin-progress';
 import visualizer from 'rollup-plugin-visualizer';
-
 import postcss from 'rollup-plugin-postcss';
 
 export default {
@@ -36,13 +34,8 @@ export default {
       extensions: ['.css', '.scss', '.sass'], // uses node-sass
     }),
 
-    babel({
-      babelrc: false,
-      exclude: 'node_modules/**',
-      presets: [['env', { modules: false }], 'stage-1', 'react'],
-      plugins: ['external-helpers'],
-    }),
-
+    // Locate modules using the Node resolution algorithm,
+    // for using third party modules in node_modules
     resolve(),
 
     // minify using
@@ -54,7 +47,7 @@ export default {
     // Progress while building
     progress({ clearLine: false }),
 
-    // Generate statistics
+    // Generate statistics site
     visualizer({
       filename: './statistics.html',
       title: 'My Bundle',
