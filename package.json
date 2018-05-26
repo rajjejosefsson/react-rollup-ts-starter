@@ -10,7 +10,7 @@
   "scripts": {
     "build": "rollup -c",
     "start": "rollup -c -w",
-    "test": "jest",
+    "test": "jest --config ./jest.config.json",
     "precommit": "lint-staged"
   },
   "peerDependencies": {
@@ -54,13 +54,5 @@
   },
   "lint-staged": {
     "*.{ts,tsx,js,json,css,md}": ["prettier --write", "git add"]
-  },
-  "jest": {
-    "transform": {
-      "^.+\\.tsx?$": "ts-jest",
-      "^.+\\.(css|scss|less)$": "jest-css-modules"
-    },
-    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
-    "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"]
   }
 }
