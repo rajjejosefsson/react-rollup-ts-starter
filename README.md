@@ -21,6 +21,8 @@ This is an opinionated starter kit to start making an Library. The goal of this 
 
 To build the project - `npm run build`
 
+To build with watch mode - `npm run start`
+
 To test - `npm run test`
 
 To start storybook - `npm run storybook`
