@@ -7,7 +7,7 @@ This is an opinionated starter kit to start making an Library. The goal of this 
 <hr />
 
 ## Demo
-[Storybook](https://rajjejosefsson.github.io/react-rollup-ts-starter/index.html)
+[Storybook](https://rajjejosefsson.github.io/react-rollup-component-ts-starter/index.html)
 
 ## What is inside
 
