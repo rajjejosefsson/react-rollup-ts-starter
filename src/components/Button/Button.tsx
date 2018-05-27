@@ -1,27 +1,16 @@
 import './Button.css';
 
-import classnames from 'classnames';
 import * as React from 'react';
 
-import { Props } from './Button.type';
+import { Props, Sizes, Types } from './Button.type';
 
 export const Button: React.StatelessComponent<Props> = ({
   children,
-  color = 'black',
-  disabled = false,
-  onClick,
-  size = 'md',
-  type = 'button',
-  ...props
+  type = 'primary',
+  size = 'big',
 }) => {
   return (
-    <button
-      disabled={disabled}
-      name={name}
-      onClick={(event) => onClick && onClick({ event })}
-      type={type}
-      {...props}
-    >
+    <button className={`btn btn--${Sizes[size]} btn--${Types[type]}`}>
       {children}
     </button>
   );
