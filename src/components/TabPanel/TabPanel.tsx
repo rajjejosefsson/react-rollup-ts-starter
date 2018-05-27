@@ -5,11 +5,11 @@ import * as React from 'react';
 const TabPanelContext = React.createContext({});
 
 export class TabPanel extends React.Component<any> {
-  static Content = ({ children }) => (
+  static Content: any = ({ children }) => (
     <TabPanelContext.Consumer>{() => children}</TabPanelContext.Consumer>
   );
 
-  static TabBar = ({ children, ...props }) => (
+  static TabBar: any = ({ children, ...props }) => (
     <TabPanelContext.Consumer>
       {() => (
         <div className="tabBar" {...props}>
@@ -20,7 +20,7 @@ export class TabPanel extends React.Component<any> {
   );
 
   /* <TabPanel.Tab tabIndex={1} >{children}</TabPanel.Tab> */
-  static Tab = ({ children, tabIndex }) => (
+  static Tab: any = ({ children, tabIndex }) => (
     <TabPanelContext.Consumer>
       {({ onInternalTabChange, internalActiveTab }: any) => (
         <div
@@ -53,3 +53,8 @@ export class TabPanel extends React.Component<any> {
     );
   }
 }
+
+// TabPanel.displayName = 'TabPanel';
+TabPanel.TabBar.displayName = 'TabPanel.TabBar';
+TabPanel.Tab.displayName = 'TabPanel.Tab';
+TabPanel.Content.displayName = 'TabPanel.Content';
