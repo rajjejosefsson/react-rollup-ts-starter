@@ -2,6 +2,7 @@
 import './TabPanel.scss';
 import * as React from 'react';
 export declare class TabPanel extends React.Component<any> {
+  displayName: 'TabPanel';
   static Content: any;
   static TabBar: any;
   static Tab: any;

@@ -5,6 +5,7 @@ import * as React from 'react';
 const TabPanelContext = React.createContext({});
 
 export class TabPanel extends React.Component<any> {
+  displayName: 'TabPanel';
   static Content: any = ({ children }) => (
     <TabPanelContext.Consumer>{() => children}</TabPanelContext.Consumer>
   );
@@ -36,8 +37,8 @@ export class TabPanel extends React.Component<any> {
   internalTabChange = (index) => {
     this.setState(
       { internalActiveTab: index },
-      this.props.onChangeTab && this.props.onChangeTab(index), // Get current tab index
-    );
+      this.props.onChangeTab && this.props.onChangeTab(index),
+    ); // Get current tab index
   };
 
   state = {
@@ -54,7 +55,6 @@ export class TabPanel extends React.Component<any> {
   }
 }
 
-// TabPanel.displayName = 'TabPanel';
 TabPanel.TabBar.displayName = 'TabPanel.TabBar';
 TabPanel.Tab.displayName = 'TabPanel.Tab';
 TabPanel.Content.displayName = 'TabPanel.Content';
