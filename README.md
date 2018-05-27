@@ -2,11 +2,12 @@
 
 This is an opinionated starter kit to start making an Library. The goal of this starter kit is to give you an library easily that is ready for production.
 
-[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)  <img src="https://img.shields.io/badge/💎-Modern-44aadd.svg"/> <img src="https://img.shields.io/badge/🔥-Blazing%20Fast-red.svg"/>
+[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) <img src="https://img.shields.io/badge/💎-Modern-44aadd.svg"/> <img src="https://img.shields.io/badge/🔥-Blazing%20Fast-red.svg"/>
 
 <hr />
 
 ## Demo
+
 [Storybook](https://rajjejosefsson.github.io/react-rollup-component-ts-starter/index.html)
 
 ## What is inside
@@ -16,8 +17,7 @@ This is an opinionated starter kit to start making an Library. The goal of this 
 * [Jest](https://facebook.github.io/jest/) JavaScript Testing provided by Facebook
 * [Storybook](https://storybook.js.org/) UI Development Environment
 
-
-## How to use
+## How to use 🤔
 
 To build the project - `npm run build`
 
@@ -30,7 +30,6 @@ To start storybook - `npm run storybook`
 To build storybook - `npm run build-storybook`
 
 To deploy storybook to gh pages - `npm run deploy-storybook`
-
 
 ## Contributors
 
