@@ -1,8 +1,8 @@
 /// <reference types="react" />
 import './TabPanel.scss';
 import * as React from 'react';
-export declare class TabPanel extends React.Component<any> {
-  displayName: 'TabPanel';
+export declare class TabPanel extends React.Component<any, any> {
+  static displayName: string;
   static Content: any;
   static TabBar: any;
   static Tab: any;

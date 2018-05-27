@@ -4,8 +4,9 @@ import * as React from 'react';
 
 const TabPanelContext = React.createContext({});
 
-export class TabPanel extends React.Component<any> {
-  displayName: 'TabPanel';
+export class TabPanel extends React.Component<any, any> {
+  static displayName = 'TabPanel';
+
   static Content: any = ({ children }) => (
     <TabPanelContext.Consumer>{() => children}</TabPanelContext.Consumer>
   );
