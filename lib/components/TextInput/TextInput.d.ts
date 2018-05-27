@@ -1,3 +1,4 @@
 /// <reference types="react" />
 import './TextInput.scss';
-export declare const TextInput: (props: any) => JSX.Element;
+import { Props } from './TextInput.type';
+export declare const TextInput: (props: Props) => JSX.Element;
