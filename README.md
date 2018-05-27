@@ -37,7 +37,7 @@ Thanks goes to these people
 
 <!-- ALL-CONTRIBUTORS-LIST:START -->
 
-| [<img src="https://avatars0.githubusercontent.com/u/13612444?v=4" width="100px;"/><br /><sub><b>Rasmus Josefsson</b></sub>](https://github.com/rajjejosefsson) | [<img src="https://avatars0.githubusercontent.com/u/10562610?v=4" width="100px;"/><br /><sub><b>Tomeu Cabot</b></sub>](https://github.com/tomtobac) | [<img src="https://avatars0.githubusercontent.com/u/24368925?v=4" width="100px;"/><br /><sub><b>Karen Cubero</b></sub>](https://github.com/tomtobac) |
+| [<img src="https://avatars0.githubusercontent.com/u/13612444?v=4" width="100px;"/><br /><sub><b>Rasmus Josefsson</b></sub>](https://github.com/rajjejosefsson) | [<img src="https://avatars0.githubusercontent.com/u/10562610?v=4" width="100px;"/><br /><sub><b>Tomeu Cabot</b></sub>](https://github.com/tomtobac) | [<img src="https://avatars0.githubusercontent.com/u/24368925?v=4" width="100px;"/><br /><sub><b>Karen Cubero</b></sub>](https://github.com/karencubero) |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
 
