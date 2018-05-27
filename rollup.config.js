@@ -30,7 +30,7 @@ export default {
 
     postcss({
       minimize: true, // uses cssnano behind scene
-      modules: true, // enable css modules
+      modules: false, // enable css modules
       extensions: ['.css', '.scss', '.sass'], // uses node-sass
     }),
 
