@@ -15,3 +15,5 @@ export const Button: React.StatelessComponent<Props> = ({
     </button>
   );
 };
+
+Button.displayName = 'Button';
