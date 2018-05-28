@@ -38,7 +38,7 @@ export default {
     // for using third party modules in node_modules
     resolve(),
 
-    // minify using
+    // minify using uglify-es
     uglify({}, minify),
 
     // logs the filesize in cli when done
@@ -47,7 +47,7 @@ export default {
     // Progress while building
     progress({ clearLine: false }),
 
-    // Generate statistics site
+    // Generates a statistics page
     visualizer({
       filename: './statistics.html',
       title: 'My Bundle',
