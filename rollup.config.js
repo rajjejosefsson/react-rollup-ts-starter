@@ -1,8 +1,7 @@
 import external from 'rollup-plugin-peer-deps-external';
 import resolve from 'rollup-plugin-node-resolve';
 import typescript from 'rollup-plugin-typescript2';
-import uglify from 'rollup-plugin-uglify';
-import { minify } from 'uglify-es';
+import { terser } from 'rollup-plugin-terser';
 import filesize from 'rollup-plugin-filesize';
 import progress from 'rollup-plugin-progress';
 import visualizer from 'rollup-plugin-visualizer';
@@ -38,8 +37,8 @@ export default {
     // for using third party modules in node_modules
     resolve(),
 
-    // minify using uglify-es
-    uglify({}, minify),
+    // minifies es bundles
+    terser(),
 
     // logs the filesize in cli when done
     filesize(),
